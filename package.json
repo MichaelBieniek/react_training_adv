@@ -1,0 +1,35 @@
+{
+  "name": "react_training_adv",
+  "version": "1.0.0",
+  "main": "lib/server.js",
+  "author": "Michael Bieniek <31993181+MichaelBieniek@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon lib/server.js"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.9.1",
+    "nodemon": "^1.17.5"
+  }
+}
