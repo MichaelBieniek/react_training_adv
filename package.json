@@ -5,8 +5,9 @@
   "author": "Michael Bieniek <31993181+MichaelBieniek@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon lib/server.js",
+    "dev": "nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -wd"
+    
   },
   "babel": {
     "presets": [
